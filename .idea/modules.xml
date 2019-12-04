@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo_comsumer/demo_comsumer.iml" filepath="$PROJECT_DIR$/demo_comsumer/demo_comsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo_producer/demo_producer.iml" filepath="$PROJECT_DIR$/demo_producer/demo_producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_rocketmq.iml" filepath="$PROJECT_DIR$/springboot_rocketmq.iml" />
+    </modules>
+  </component>
+</project>
