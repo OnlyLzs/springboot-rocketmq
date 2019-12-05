@@ -18,7 +18,7 @@ public class ProducerController {
     @Resource
     RocketMQTemplate rocketMQTemplate;
 
-    @Autowired
+    @Resource
     UserService userService;
 
     @ResponseBody
@@ -31,9 +31,15 @@ public class ProducerController {
     }
 
     @ResponseBody
-    @RequestMapping("/queryUser")
-    public List<User> queryUser(){
+    @RequestMapping("/queryUser1")
+    public List<User> queryUser1(){
         return userService.queryAll();
+    }
+
+    @ResponseBody
+    @RequestMapping("/queryUser2")
+    public List<User> queryUser2() {
+        return userService.queryAllByDBTwo();
     }
 
 }
