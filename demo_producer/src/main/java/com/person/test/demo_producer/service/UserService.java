@@ -8,4 +8,8 @@ public interface UserService {
     List<User> queryAll();
 
     List<User> queryAllByDBTwo();
+
+    String updateUserOne(User user);
+
+    String updateUserTwo(User user);
 }

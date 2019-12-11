@@ -8,13 +8,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.annotation.Import;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 动态数据源配置,需要将自有的配置依赖(DynamicDataSourceConfig),将原有的依赖去除(DataSourceAutoConfiguration)
  * 自己将DynamicDataSourceConfig 错写成了DynamicDataSource 导致targetDataSources 注入不进去
+ * #EnableScheduling 开启定时任务
  */
 @Import({DynamicDataSourceConfig.class})
-//@MapperScan("com.person.test.demo_producer.mapper")
+@EnableScheduling
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class DemoProducerApplication {
 

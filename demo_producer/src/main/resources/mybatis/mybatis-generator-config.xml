@@ -13,7 +13,7 @@
         <!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/multi-db1?
-                                serverTimezone=CTT&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true"
+                                serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true"
                         userId="root"
                         password="Lzs123123">
             <!--不加这句 会生成xxxKey文件 xxxWithBLOB文件  http://mybatis.org/generator/usage/mysql.html#-->
@@ -50,6 +50,11 @@
 
         <!-- 指定数据库表 -->
         <table tableName="user" domainObjectName="User"
+               enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false" >
+        </table>
+        <table tableName="schedule" domainObjectName="Schedule"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false" >

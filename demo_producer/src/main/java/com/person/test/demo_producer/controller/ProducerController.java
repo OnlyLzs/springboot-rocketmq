@@ -42,4 +42,26 @@ public class ProducerController {
         return userService.queryAllByDBTwo();
     }
 
+    @ResponseBody
+    @RequestMapping("/updateUserOne")
+    public String updateUserOne(){
+        Random random = new Random();
+        int i = random.nextInt(10000);
+        User user = new User();
+        user.setId(1);
+        user.setName("修改后的张三"+i);
+        return userService.updateUserOne(user);
+    }
+
+    @ResponseBody
+    @RequestMapping("/updateUserTwo")
+    public String updateUserTwo(){
+        Random random = new Random();
+        int i = random.nextInt(10000);
+        User user = new User();
+        user.setId(1);
+        user.setName("修改后的王二"+i);
+        return userService.updateUserTwo(user);
+    }
+
 }

@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01404442-b27d-4957-8edc-35daca3c4665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/annotation/CurDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/aop/DataSourceAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DruidConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DruidProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DynamicDB/DataSourceContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DynamicDB/DynamicDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DynamicDB/DynamicDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DynamicDB/mybatis/OptionalSqlSessionTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/enums/DataSourceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/Schedule/AsyncScheduledTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/Schedule/ScheduledTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/mapper/ScheduleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/pojo/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/ScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/impl/ScheduledServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_producer/src/main/resources/mybatis/mapper/ScheduleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_producer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/DemoProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/DemoProducerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DateSourceDB1Config.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/controller/ProducerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_producer/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_producer/src/test/java/com/person/test/demo_producer/DemoProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/test/java/com/person/test/demo_producer/DemoProducerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_producer/src/main/resources/mybatis/mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_producer/src/main/resources/mybatis/mybatis-generator-config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +33,9 @@
         <option value="spring-beans.schema" />
         <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="Aspect" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -144,12 +137,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b448738" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c519a6b0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b448738" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8ac3bedd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c519a6b0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9389247" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -172,7 +165,9 @@
       <workItem from="1575073057420" duration="5295000" />
       <workItem from="1575253141629" duration="21668000" />
       <workItem from="1575355595126" duration="44872000" />
-      <workItem from="1575534565438" duration="4691000" />
+      <workItem from="1575534565438" duration="11177000" />
+      <workItem from="1575941749305" duration="12113000" />
+      <workItem from="1576049310671" duration="3275000" />
     </task>
     <servers />
   </component>
@@ -219,6 +214,14 @@
           <url>file://$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/config/DynamicDB/DynamicDataSourceConfig.java</url>
           <line>98</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/demo_producer/src/main/java/com/person/test/demo_producer/mapper/ScheduleMapper.java</url>
+          <line>7</line>
+          <properties class="com.person.test.demo_producer.mapper.ScheduleMapper" method="insert">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
